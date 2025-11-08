@@ -8,9 +8,47 @@ from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pathlib import Path
 import sys
+import requests
 
 from backend.config import settings
 from backend.api.routes_dynamic import router
+
+
+# Download CSV files from GitHub if not present (for Render deployment)
+data_dir = Path(__file__).parent.parent / "data"
+csv_files = [
+    "sales_transactions.csv",
+    "product_master.csv",
+    "branch_master.csv",
+    "division_master.csv",
+    "customer_master.csv"
+]
+
+# Check if data directory exists and has files
+if not data_dir.exists() or not any(data_dir.glob("*.csv")):
+    print("\n📥 Data files not found locally. Downloading from GitHub...")
+    data_dir.mkdir(exist_ok=True)
+
+    # GitHub raw file URL - UPDATE THIS WITH YOUR ACTUAL REPO
+    github_raw = "https://github.com/FahimShahryer/sales_ai/tree/main/data"
+
+    for csv_file in csv_files:
+        try:
+            file_path = data_dir / csv_file
+            if not file_path.exists():
+                print(f"   Downloading {csv_file}...")
+                response = requests.get(github_raw + csv_file, timeout=10)
+                response.raise_for_status()
+                with open(file_path, "wb") as f:
+                    f.write(response.content)
+                print(f"   ✅ {csv_file} downloaded")
+        except Exception as e:
+            print(f"   ⚠️  Failed to download {csv_file}: {str(e)}")
+
+    print("✅ Data download complete\n")
+else:
+    print("✅ Data files found locally\n")
+
 
 # Fix Windows encoding
 if sys.platform == 'win32':
