@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     checkHealth();
 
     // Load sales_transactions by default
-    tableSelect.value = 'sales_transactions';
+    tableSelect.value = 'product_master';
     loadTable();
 });
 

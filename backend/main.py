@@ -17,7 +17,6 @@ from backend.api.routes_dynamic import router
 # Download CSV files from GitHub if not present (for Render deployment)
 data_dir = Path(__file__).parent.parent / "data"
 csv_files = [
-    "sales_transactions.csv",
     "product_master.csv",
     "branch_master.csv",
     "division_master.csv",
