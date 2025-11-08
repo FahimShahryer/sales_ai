@@ -1,0 +1,29 @@
+openai
+python-dotenv
+google-genai
+pandas
+numpy
+tqdm
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+torch
+
+# FastAPI Backend
+fastapi
+uvicorn
+pydantic
+python-multipart
+pydantic-settings
+
+# LangGraph & LangChain Extensions
+langgraph
+langchain-core
+langchain-google-genai
+langchain-openai
+langchain-huggingface
+
+# Visualization data support
+matplotlib
+seaborn

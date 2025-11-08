@@ -1,0 +1,37 @@
+SKU,Product_Name,Category,Sub_Category,Brand,Division_ID,Unit_Price_BDT,Cost_BDT,Margin_Percent,Unit
+SKU0001,Mojo Cola,Beverages,Beverages,Pran,DIV001,30,22,26.67,piece
+SKU0002,Clemon Lemon Drink,Beverages,Beverages,Pran,DIV001,25,18,28.0,piece
+SKU0003,Frutika Mango Juice,Beverages,Beverages,Akij,DIV001,40,30,25.0,piece
+SKU0004,Speed Energy Drink,Beverages,Beverages,Akij,DIV001,80,60,25.0,piece
+SKU0005,Uro Cola,Beverages,Beverages,Akij,DIV001,35,25,28.57,piece
+SKU0006,Choco Moco Wafer,Snacks,Snacks,Akij,DIV001,20,15,25.0,piece
+SKU0007,Mr. Twist Chips,Snacks,Snacks,Akij,DIV001,25,18,28.0,piece
+SKU0008,Potato Crackers,Snacks,Snacks,Akij,DIV001,35,25,28.57,piece
+SKU0009,Chanachur Mix,Snacks,Snacks,Pran,DIV001,50,38,24.0,piece
+SKU0010,Jhalmuri Spicy Mix,Snacks,Snacks,Akij,DIV001,30,22,26.67,piece
+SKU0011,Lexus Cream Biscuit,Biscuits,Biscuits,Akij,DIV001,30,22,26.67,piece
+SKU0012,Tiger Glucose Biscuit,Biscuits,Biscuits,Akij,DIV001,25,18,28.0,piece
+SKU0013,Chocolate Sandwich,Biscuits,Biscuits,Olympic,DIV001,40,30,25.0,piece
+SKU0014,Marie Biscuit,Biscuits,Biscuits,Akij,DIV001,35,26,25.71,piece
+SKU0015,Radhuni Turmeric Powder 50g,Spices,Spices,Square,DIV001,45,35,22.22,piece
+SKU0016,Radhuni Chili Powder 50g,Spices,Spices,Square,DIV001,50,38,24.0,piece
+SKU0017,Radhuni Biryani Masala,Spices,Spices,Square,DIV001,65,50,23.08,piece
+SKU0018,Radhuni Meat Masala,Spices,Spices,Square,DIV001,55,42,23.64,piece
+SKU0019,Cocola Instant Noodles,Noodles,Noodles,Akij,DIV001,25,18,28.0,piece
+SKU0020,Foodles Masala,Noodles,Noodles,Pran,DIV001,30,22,26.67,piece
+SKU0021,Mr. Noodles Classic,Noodles,Noodles,Akij,DIV001,28,20,28.57,piece
+SKU0022,Akij OPC 53 Grade Cement,Cement,OPC Cement,Akij,DIV002,520,400,23.08,50kg bag
+SKU0023,Akij OPC 43 Grade Cement,Cement,OPC Cement,Akij,DIV002,480,370,22.92,50kg bag
+SKU0024,Akij PPC Premium Cement,Cement,PPC Cement,Akij,DIV002,540,420,22.22,50kg bag
+SKU0025,Akij PPC Standard Cement,Cement,PPC Cement,Akij,DIV002,500,390,22.0,50kg bag
+SKU0026,Akij White Cement,Cement,White Cement,Akij,DIV002,650,520,20.0,50kg bag
+SKU0027,Akij Bulk OPC,Cement,Bulk Cement,Akij,DIV002,490,380,22.45,50kg bag
+SKU0028,Cotton Fabric Premium,Textile,Fabrics,Akij Textile,DIV003,450,320,28.89,meter/piece
+SKU0029,Denim Fabric Export Grade,Textile,Fabrics,Akij Textile,DIV003,650,480,26.15,meter/piece
+SKU0030,Polyester Blend Fabric,Textile,Fabrics,Akij Textile,DIV003,380,270,28.95,meter/piece
+SKU0031,Silk Fabric Premium,Textile,Fabrics,Akij Textile,DIV003,1200,900,25.0,meter/piece
+SKU0032,T-Shirt Export Quality,Textile,Garments,Akij Garments,DIV003,280,200,28.57,meter/piece
+SKU0033,Jeans Export Quality,Textile,Garments,Akij Garments,DIV003,850,650,23.53,meter/piece
+SKU0034,Polo Shirt Premium,Textile,Garments,Akij Garments,DIV003,420,310,26.19,meter/piece
+SKU0035,Cotton Yarn 40s,Textile,Raw Materials,Akij Textile,DIV003,350,260,25.71,meter/piece
+SKU0036,Polyester Thread,Textile,Raw Materials,Akij Textile,DIV003,280,210,25.0,meter/piece

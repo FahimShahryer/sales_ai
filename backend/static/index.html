@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akij Sales Intelligence</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Left Column: Chat -->
+        <div class="chat-column">
+            <div class="chat-header">
+                <h1>Akij Sales Intelligence</h1>
+                <p class="subtitle">Multi-Agent Analytics System</p>
+                <div class="status-indicator">
+                    <span class="status-dot" id="statusDot"></span>
+                    <span class="status-text" id="statusText">Connecting...</span>
+                </div>
+            </div>
+
+            <div class="chat-messages" id="chatMessages">
+                <!-- Welcome Message -->
+                <div class="message system-message">
+                    <div class="message-content">
+                        <h3>Welcome</h3>
+                        <p>Ask me anything about sales data, trends, forecasts, or business strategies.</p>
+                        <div class="example-queries">
+                            <p><strong>Try asking:</strong></p>
+                            <ul>
+                                <li>"What was total sales in 2024?"</li>
+                                <li>"Which products are trending upward?"</li>
+                                <li>"How many transactions in Q3 2024?"</li>
+                                <li>"Should we open a new branch in Khulna?"</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="chat-input-container">
+                <form id="chatForm" class="chat-form">
+                    <textarea
+                        id="chatInput"
+                        class="chat-input"
+                        placeholder="Ask about sales, trends, forecasts, or strategies..."
+                        rows="1"
+                    ></textarea>
+                    <button type="submit" class="send-button" id="sendButton">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Right Column: Data Table Viewer -->
+        <div class="data-column">
+            <div class="data-header">
+                <h2>Data Explorer</h2>
+                <select id="tableSelect" class="table-select">
+                    <option value="">Select a table...</option>
+                    <option value="sales_transactions">Sales Transactions</option>
+                    <option value="product_master">Product Master</option>
+                    <option value="branch_master">Branch Master</option>
+                    <option value="division_master">Division Master</option>
+                    <option value="customer_master">Customer Master</option>
+                </select>
+            </div>
+
+            <div class="data-content" id="dataContent">
+                <div class="data-placeholder">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M3 6h18M3 12h18M3 18h18"/>
+                    </svg>
+                    <p>Select a table to view data</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+Branch_ID,Division_ID,Branch_Name,District,Region,Branch_Type,Opening_Date
+BR001,DIV001,FMCG Dhaka,Dhaka,Central,Urban,2010-01-15
+BR002,DIV001,FMCG Chittagong,Chittagong,South,Urban,2011-03-20
+BR003,DIV001,FMCG Sylhet,Sylhet,North-East,Semi-urban,2024-01-10
+BR004,DIV002,Cement Dhaka,Dhaka,Central,Urban,2005-06-01
+BR005,DIV002,Cement Chittagong,Chittagong,South,Urban,2006-09-15
+BR006,DIV002,Cement Rajshahi,Rajshahi,North-West,Semi-urban,2012-04-10
+BR007,DIV003,Textile Dhaka,Dhaka,Central,Urban,2008-02-20
+BR008,DIV003,Textile Chittagong,Chittagong,South,Urban,2008-08-15
+BR009,DIV003,Textile Gazipur,Gazipur,Central,Industrial,2015-11-01
